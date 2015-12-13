@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: f996026079fe02245bdc08169f9706de
+timeCreated: 1449976591
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bunny_0
+    21300002: bunny_1
+    21300004: bunny_2
+    21300006: bunny_3
+    21300008: bunny_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bunny_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 412
+        width: 106
+        height: 94
+      alignment: 9
+      pivot: {x: 0.72284615, y: 0.5209412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.62169, y: 45.031525}
+        - {x: -76.62169, y: 28.031525}
+        - {x: -76.62169, y: -44.968475}
+        - {x: -71.62169, y: -46.968475}
+        - {x: 23.378311, y: -46.968475}
+        - {x: 29.378311, y: -31.968475}
+        - {x: 29.378311, y: 45.031525}
+    - name: bunny_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 416
+        width: 106
+        height: 88
+      alignment: 9
+      pivot: {x: 0.71665597, y: 0.50000036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.96553, y: 43.99997}
+        - {x: -66.96553, y: 14.9999695}
+        - {x: -75.96553, y: 6.9999695}
+        - {x: -75.96553, y: -44.00003}
+        - {x: 24.03447, y: -44.00003}
+        - {x: 30.03447, y: -24.00003}
+        - {x: 30.03447, y: 43.99997}
+    - name: bunny_2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 276
+        width: 106
+        height: 101
+      alignment: 9
+      pivot: {x: 0.7104658, y: 0.5194902}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.309372, y: 48.531494}
+        - {x: -75.30937, y: 13.531494}
+        - {x: -75.30937, y: -45.468506}
+        - {x: -74.30937, y: -50.468506}
+        - {x: 28.690628, y: -50.468506}
+        - {x: 29.690628, y: -47.468506}
+        - {x: 29.690628, y: 48.531494}
+    - name: bunny_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 279
+        width: 117
+        height: 98
+      alignment: 9
+      pivot: {x: 0.6345966, y: 0.4799135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.247803, y: 50.968475}
+        - {x: -74.2478, y: 12.968475}
+        - {x: -74.2478, y: -47.031525}
+        - {x: 41.752197, y: -47.031525}
+        - {x: 41.752197, y: 12.968475}
+        - {x: 32.752197, y: 50.968475}
+    - name: bunny_4
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 278
+        width: 106
+        height: 98
+      alignment: 9
+      pivot: {x: 0.7414168, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.59018, y: 49}
+        - {x: -78.59018, y: 7}
+        - {x: -78.59018, y: -42}
+        - {x: -71.59018, y: -49}
+        - {x: 22.40982, y: -49}
+        - {x: 27.40982, y: -41}
+        - {x: 27.40982, y: 49}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
