@@ -47,6 +47,7 @@ public class button : MonoBehaviour {
         button2.GetComponent<UnityEngine.UI.Image>().enabled = false;
         button2.GetComponent<UnityEngine.UI.Button>().enabled = false;
         pressed = true;
+        WorldObject.GetComponent<AudioSource>().Stop();
         if (color.color == Color.magenta)
         {
             WorldObject.mood = "fear";

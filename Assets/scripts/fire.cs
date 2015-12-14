@@ -104,7 +104,10 @@ public class fire : actor
         if (base.worldObject.mood == "anger")
         {
             GetComponent<SpriteRenderer>().enabled = true;
-            transform.localScale *= scaleRate;
+            if (transform.localScale.x < maxScale2)
+            {
+                transform.localScale *= scaleRate;
+            }
             base.AnimTime += Time.deltaTime;
             if (base.AnimTime > base.AnimRate)
             {
