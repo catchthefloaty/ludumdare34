@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class actor : MonoBehaviour
 {
-    world worldObject;
+    public world worldObject;
     public float AnimRate;
     public  float AnimTime;
     public int curFrame;
@@ -24,26 +24,42 @@ public class actor : MonoBehaviour
     {
         if (worldObject.turn == 0)
         {
-            TurnOne();
+            TurnZero();
         }
         else if (worldObject.turn == 1)
         {
+            TurnOne();
+        }
+        else if (worldObject.turn == 2)
+        {
             TurnTwo();
         }
-
-        Debug.Log("yep");
+        else if (worldObject.turn == 3)
+        {
+            TurnThree();
+        }
+        else if (worldObject.turn == 4)
+        {
+            TurnFour();
+        }
+        //Debug.Log("yep");
 
 
     }
 
+    virtual public void TurnZero()
+    {
 
-   virtual public void TurnOne()
+        //Debug.Log("nope");
+    }
+
+    virtual public void TurnOne()
     {
 
         Debug.Log("nope");
     }
 
-    void TurnTwo()
+    virtual public void TurnTwo()
     {
 if (worldObject.mood == "")
             {
@@ -54,17 +70,14 @@ if (worldObject.mood == "")
 
             }
     }
-    void TurnThree()
+    virtual public void TurnThree()
     {
 
     }
-    void TurnFour()
+    virtual public void TurnFour()
     {
 
     }
-    void TurnFive()
-    {
 
-    }
 
 }
